@@ -1,0 +1,167 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 80px;
+}
+
+.slider {
+    position: relative;
+    overflow: hidden;
+    width: 50%;
+    height: auto; /* Adjust the height as needed */
+}
+
+.slide {
+    display: none;
+}
+
+.slide.active {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#hero {
+    display: flex;
+    background-color: #111;
+    background-image: url("bg.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 40px;
+    background-blend-mode: luminosity;
+}
+
+
+#hero2 {
+    display: flex;
+    background-color: #111;
+    background-image: url("bg.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 40px;
+    background-blend-mode: luminosity;
+}
+
+.slider {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: auto; /* Adjust the height as needed */
+}
+
+.slide {
+    display: none;
+}
+
+.slide.active {
+    display: block;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* ... Rest of the CSS code ... */
+
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero-content {
+    flex: 1;
+    padding: 20px;
+    margin-right: 700px;
+}
+
+.hero2-content {
+    flex: 1;
+    padding: 20px;
+    margin-right: 700px;
+}
+
+h1 {
+    font-size: 36px;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: 20px;
+    margin-right: 70px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d9534f;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #c9302c;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+iframe {
+    margin-left: 50px;
+    width: 70%;
+    height: 315px;
+    border: none;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+}
